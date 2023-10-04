@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #EFDCF9;
+}
+
+body{
+    background: #5F3A89;
+}
+
+header{
+    position: relative;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+nav h1{
+    font-size: 36px;
+}
+
+nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: yellow;
+    border: yellow 2px solid;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.wrapper-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.detail-text p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.btn-download{
+    background-color: #9168B8;
+    border: none;
+    color: #EFDCF9;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn-download:hover{
+    color: yellow;
+    border: yellow 2px solid;
+    border-radius: 8px;
+    padding: 10px 24px;
+}
+
+.detail-img{
+    margin-left: 4%;
+}
+
+.wrapper-about{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+
+.about-me,
+.education,
+.work,
+.skills,
+.certif{
+    position: relative;
+    background-color: #efdcf941;
+    border: #EFDCF9 4px solid;
+    border-radius: 10px;
+    margin: 1% 8%;
+    padding: 30px;
+}
+
+.about-me h1,
+.education h1,
+.work h1,
+.skills h1,
+.certif h1{
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 16px;
+}
+
+.about-me p,
+.education p,
+.work p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 18px;
+    margin-left: 18px;
+    
+}
+
+.education h2{
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin: 18px;
+}
+
+.skills img{
+    margin-right: 10px;
+}
+
+.certif a{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+
+.certif a:hover{
+    color: yellow;
+    cursor: pointer; 
+}
+
+.certif p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 18px;
+}
