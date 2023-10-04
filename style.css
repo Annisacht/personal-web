@@ -156,3 +156,11 @@ nav ul li a:hover{
     line-height: 25px;
     margin-left: 18px;
 }
+
+.contacts{
+    display: flex;
+}
+
+.contacts-img{
+    flex-direction: row;
+}
