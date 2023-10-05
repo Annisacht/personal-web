@@ -161,11 +161,13 @@ nav ul li a:hover{
 }
 
 /* projects */
-.wrapper-project{
+.wrapper-project,
+.wrapper-blog{
     padding: 30px 80px;
 }
 
-.pr-card {
+.pr-card,
+.blog-card{
     /* background-color: red; */
     display: grid;
     gap: 70px;
@@ -175,18 +177,19 @@ nav ul li a:hover{
     border-radius: 8px;
 }
 
-.card-pr{
+.card-pr,
+.card-b{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    /* border: 2px solid #EFDCF9;*/
     border-radius: 8px;
     padding-bottom: 32px;
     background-color: #efdcf941;
     text-align: center;
 }
 
-.card-pr:hover {
+.card-pr:hover,
+.card-b:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
   
