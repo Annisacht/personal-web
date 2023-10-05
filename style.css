@@ -9,11 +9,13 @@ body{
     background: #5F3A89;
 }
 
+/* header */
 header{
     position: relative;
     width: 100%;
 }
 
+/* navbar */
 nav{
     display: flex;
     width: 84%;
@@ -46,12 +48,12 @@ nav ul li a:hover{
     padding: 8px;
 }
 
+/* detail */
 .wrapper-detail{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 .detail-text p{
     font-size: 18px;
@@ -84,6 +86,7 @@ nav ul li a:hover{
     margin-left: 4%;
 }
 
+/* about */
 .wrapper-about{
     display: flex;
     flex-direction: column;
@@ -157,10 +160,54 @@ nav ul li a:hover{
     margin-left: 18px;
 }
 
-.contacts{
-    display: flex;
+/* projects */
+.wrapper-project{
+    padding: 30px 80px;
 }
 
-.contacts-img{
-    flex-direction: row;
+.pr-card {
+    /* background-color: red; */
+    display: grid;
+    gap: 70px;
+    grid-template-columns: repeat(3,1fr);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 8px;
 }
+
+.card-pr{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /* border: 2px solid #EFDCF9;*/
+    border-radius: 8px;
+    padding-bottom: 32px;
+    background-color: #efdcf941;
+    text-align: center;
+}
+
+.card-pr:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.container {
+    padding: 2px 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* contacts */
+.contacts{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin: 32px;
+}
+
+.contacts div{
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+    font-weight: bold;
+}
+
