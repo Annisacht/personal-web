@@ -177,6 +177,14 @@ nav ul li a:hover{
     border-radius: 8px;
 }
 
+.wrapper-project p,
+.wrapper-blog p,
+.contacts p{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
 .card-pr,
 .card-b{
     display: flex;
@@ -204,13 +212,19 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     row-gap: 32px;
-    margin: 32px;
+    margin: 24 px;
+    padding: 30px 80px;
 }
 
 .contacts div{
     display: flex;
-    column-gap: 32px;
+    column-gap: 10px;
     align-items: center;
     font-weight: bold;
+    margin-left:  32px;
 }
 
+.contact-gif{
+    position: absolute;
+    align-self: flex-end;
+}
