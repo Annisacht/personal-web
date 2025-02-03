@@ -9,6 +9,26 @@ body{
     background: #5F3A89;
 }
 
+h1{
+        font-family: "Jersey 15", serif;
+        font-weight: 400;
+        font-style: normal;      
+}
+
+h2{
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+}
+
+p{
+    font-family: "poppins", serif;
+    font-weight: 400;
+}
+
+br a{
+    font-family: "poppins", serif;
+    font-weight: 600;
+}
 /* header */
 header{
     position: relative;
@@ -34,6 +54,7 @@ nav ul li{
 
 nav h1{
     font-size: 36px;
+    font-family:  "Jersey 15", serif;
 }
 
 nav ul li a{
@@ -139,6 +160,12 @@ nav ul li a:hover{
     margin-right: 10px;
 }
 
+.skills img[src="asset/canva.png"]{
+    width: 50px;
+    height: 50px; /* Adjust the height as needed */
+    object-fit: contain;
+}
+
 .certif a{
     display: flex;
     flex-direction: column;
@@ -220,6 +247,7 @@ nav ul li a:hover{
     display: flex;
     column-gap: 10px;
     align-items: center;
+    font-family: "poppins", sans-serif;
     font-weight: bold;
     margin-left:  32px;
 }
